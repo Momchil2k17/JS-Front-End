@@ -1,0 +1,47 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    align-content: center;
+    
+    width: 20px;
+    height: 20px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    text-align: center;
+ 
+}
+li{
+    display: inline;   
+}
+i{ 
+    position: relative;
+    bottom: 6px;
+    color: black;
+    font-size: 12px;
+}
+li:nth-child(1) i:hover{
+    color: rgb(0, 21, 255);
+}
+li:nth-child(2) i:hover{
+    color: rgb(0, 140, 255);
+}
+li:nth-child(3) i:hover{
+    color: rgb(255, 4, 0);
+}
+li:nth-child(4) i:hover{
+    color: rgb(0, 76, 255);
+}
+li:nth-child(5) i:hover{
+    color: rgb(94, 106, 241);
+}
+

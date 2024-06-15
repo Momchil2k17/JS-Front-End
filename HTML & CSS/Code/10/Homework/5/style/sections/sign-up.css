@@ -1,0 +1,17 @@
+.sign-up form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 3em;
+}
+form h1{
+    color: white;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid black;
+}
+.input-box{
+    display: flex;
+    gap: 1em;
+}

@@ -1,0 +1,54 @@
+footer{
+    display: flex;
+    gap: 5em;
+    padding: 1em 10em;
+    font-size: 1.1em;
+}
+.final-words p:first-child{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.final-words{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.sitemap p:first-child{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sitemap{
+    display: flex;
+    flex-direction: column;
+}
+
+.sitemap ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sitemap ul{
+    list-style-type: none;
+    padding-top: 0.3em;
+}
+.sm-columns{
+    display: flex;
+    gap: 3em;
+}
+
+
+.contacts p:first-child{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap:0.2em;
+    padding-bottom: 2em;
+}
+.contacts i{
+    margin-right:0.2em;
+}

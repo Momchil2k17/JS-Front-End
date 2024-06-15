@@ -1,0 +1,54 @@
+* {
+   
+    box-sizing: border-box;
+}
+body{
+    padding: 2em;
+    display: flex;
+    gap: 0.7em;
+    flex-wrap: wrap;
+}
+
+header,footer{
+    flex: 1 0 100%;
+}
+
+body > *{
+    background-color: rgb(160, 199, 233);
+    border-radius: 0.2em;
+}
+
+main{
+    flex: 1 0 75%;
+    padding-left: 1em;
+}
+aside{
+    flex: 1 1 auto;
+}
+
+header p{
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 1em;
+}
+footer p{
+    margin: 0.2em;
+}
+aside ul{
+    list-style-type: none;
+    padding-left: 1em;
+}
+aside ul li{
+    padding-bottom: 0.5em;
+}
+aside ul li a{
+    text-decoration: none;
+}
+
+@media (max-width:500px){
+    body{
+        flex-direction: column;
+    }
+}
+
+

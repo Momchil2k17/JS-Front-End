@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 "Karla", sans-serif;
+}
+
+body {
+    background-image: url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cormorant Infant";
+}
+.container {
+    max-width: 1115px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+.s-title a {
+    display: block;
+    width: 120px;
+    height: 70px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.88em 5em;
+    margin-bottom: 15.5em;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav li {
+    list-style: none outside;
+    padding: 0 1em;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* COLORS */
+.quote,.understand{
+    background:#F8F0E9;
+}
+
+.support,.find{
+    background: #E14747;
+}
+.footer{
+    background: #352B2A;
+}
+
+/* HEADING */
+.site-section.heading .container {
+    color: #FFF;
+    text-align: center;
+}
+
+.heading h2{
+    font-size: 90px;
+    margin-bottom: 10rem;
+}
+.heading p{
+    max-width: 40rem;
+    margin: 0 auto;
+    font-size: 1.25em;
+    margin-bottom: 10em;
+}
+.quote{
+    padding-bottom: 7.77rem;
+    padding-top: 3.22em;
+}
+.quote p{
+    
+    padding-bottom: 5.55em;
+    font-size: 1.25em;
+    color: #352B2A;
+}
+.quote h2{
+    font-size: 90px;
+    color: #352B2A;
+    line-height: 0.8;
+    font-style: italic;
+}
+.support{
+    text-align: center;
+    color: #fff;
+    padding: 5em 0;
+}
+.support p:first-child{
+    font-weight: bold;
+    font-size: 1.66em;
+    margin-bottom: 4rem;
+}
+.support p:nth-child(2){
+    max-width: 16.5em;
+    font-size: 1.22em;
+    margin: 0 auto;
+}
+.understand{
+    padding: 4.22em 0;
+}
+.understand-rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.2em;
+}
+.understand article{
+   display: flex;
+   flex-direction: column;
+   max-width: 35em;
+   margin: 0 auto;
+   color: #352B2A;
+}
+.understand .media img{
+width: 100%;
+height: auto;
+display: block;
+}
+.description h3{
+    margin-top: 5.33rem;
+    font-size: 4.1em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 0.9;
+    margin-bottom: 6rem;
+}
+.description p{
+    font-size: 1.22em;
+    margin-bottom: 5rem;
+}
+.description a,.read-all a{
+    padding: 0.7em 2em;
+    background-color: #FFF;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.find-rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 4.44em;
+}
+.find-rows h3{
+    margin-top: 8.33rem;
+    font-size: 4.1em;
+    font-weight: 600;
+    margin-bottom: 7.33rem;
+}
+.find-rows p{
+    font-size: 1.22em;
+    margin-bottom: 5rem;
+}
+.find-rows a{
+    text-decoration: none;
+    color: black;
+    background-color: #FAD87A;
+    padding: 0.8em 1.77em;
+    border-radius: 26px;
+}
+
+.footer{
+    padding: 3.5em 9em;
+    color: #fff;
+}
+.footer-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.s-footer a {
+    display: block;
+    width: 80px;
+    height: 45px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-elements p{
+    max-width: 27.5em;
+}
+.footer-elements p:last-child{
+    color: #6E5D5C;
+}
+
+

@@ -1,0 +1,25 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+@import url('base/reset.css');
+@import url('base/typography.css');
+
+@import url('components/forms.css');
+@import url('components/navigation.css');
+
+@import url('elements/buttons.css');
+
+@import url('site-footer.css');
+@import url('site-header.css');
+@import url('site-layout.css');
+
+@import url('sections/need.css');
+@import url('sections/our-team.css');
+@import url('sections/sign-up.css');
+@import url('sections/testi.css');
+
+
+@import url('queries.css');
+
+
+
+

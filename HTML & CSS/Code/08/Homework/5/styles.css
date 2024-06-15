@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+header h1{
+    font-size: 3em;
+    text-transform: justify;
+}
+main{
+    padding-top:1em;
+
+}
+p{
+    margin: 1em 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+li{
+    color: rgb(0, 154, 0);
+}

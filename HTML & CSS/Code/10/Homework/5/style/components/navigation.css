@@ -1,0 +1,12 @@
+.site-navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5em;
+    font-size: 1.1em;
+    padding-top: 1em;
+}
+
+.site-navigation ul li a{
+    text-decoration: none;
+    color: rgb(65, 64, 63);
+}

@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+
+}
+
+#two {
+  top: 20px;
+  left: 20px;
+  background: blue;
+  position: absolute;
+}

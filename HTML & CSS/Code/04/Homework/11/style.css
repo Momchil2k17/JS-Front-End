@@ -1,0 +1,54 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+body,table,article{
+    font: inherit;
+}
+
+header{
+    font-family: Georgia,serif;
+}
+
+
+table{
+    width: 100%;
+    border: 1px solid rgb(148, 148, 148);
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+}
+
+td {
+    border: 1px solid rgb(148, 148, 148);
+    padding: 5px;
+}
+
+table th{
+    background-color: rgb(181, 180, 180);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 5px;
+}
+table tr:nth-child(2n+2){
+    background-color: white;
+}
+table tr:nth-child(2n+1){
+    background-color: lightgray;;
+}
+
+blockquote {
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-top: 1px;
+    border-left: 5px solid rgba(221, 221, 221);
+    font-style: italic;
+}
+
+footer {
+    text-align: right;
+}
+

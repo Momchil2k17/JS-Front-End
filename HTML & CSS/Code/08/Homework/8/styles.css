@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+
+text-transform: uppercase;
+border-bottom: 3px solid black;
+flex: 0 0 100%;
+}
+header p{
+    font-size: 2em;
+    padding: 1em;
+    font-weight: bold;
+}
+
+main{
+    padding: 2em;
+    flex-grow: 1;
+}
+p{
+    padding-bottom: 1.5em;
+}
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    flex: 0 0 100%;
+    margin-top: auto;
+}

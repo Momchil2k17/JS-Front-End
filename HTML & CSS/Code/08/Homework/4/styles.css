@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+}
+
+div{
+    max-width: 65vw;
+    display: flex;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span{
+    border: 1px solid gray;
+     flex-grow: 1;
+     text-align: center;
+     padding: 1em;
+}
+
+.week span:nth-child(1),.week span:nth-child(7){
+    flex:1 0 100%;
+}

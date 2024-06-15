@@ -1,0 +1,43 @@
+body{
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding: 4em;
+}
+
+header{
+    border-bottom: 3px solid black;
+}
+header .title a{
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .title,header nav{
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 0.5em;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: green;
+    padding: 0.5em 1em;
+}
+
+nav ul{
+    padding: 0 0 0 4em;
+    margin: 0;
+}
+
+
+
+
+
+
+
+

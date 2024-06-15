@@ -1,0 +1,32 @@
+.need{
+    padding: 1em 16em;
+    display: flex;
+    gap: 5em;
+}
+.globe-icon{
+    display: flex;
+    font-size: 8em;
+    flex: 1 0 auto;
+}
+
+.need-text{
+    display: flex;
+    flex: 1 1 25%;
+    flex-direction: column;
+    padding-left: 10em;
+    gap: 1em;
+}
+
+.tell-us a{
+text-decoration: none;
+border: 1px solid black;
+font-size: em;
+padding: 0.5em;
+color: black;
+border-radius: 3px;
+}
+
+.tell-us a:hover{
+    background-color: rgb(77, 15, 134);
+    color: white;
+}

@@ -1,0 +1,25 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em 8em;
+    padding-bottom: 7em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.testimonials h1{
+    align-self: center;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid black;
+}
+
+.people-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10em;
+}
+
+.person-summary{
+    font-style: italic;
+    padding: 1em;
+}

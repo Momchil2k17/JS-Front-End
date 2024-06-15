@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font:14px/1.5 Inter,sans-serif;
+    padding: 2em;
+}
+article{
+    max-width: 1060px;
+    margin: 0 auto;
+    
+    background-color: #85DCFF;
+}
+.container{
+    display: flex;
+    padding: 5.14em 2.42em;
+    justify-content: space-between;
+}
+.desctiption{
+    flex: 1 1 auto;
+}
+.media{
+    flex: 0 0 360px;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+figure{
+    box-shadow: 5px 5px 5px rgb(0, 0, 0,0.7);
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description h1{
+    font-size: 3.14em;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 2em;
+    gap: 1em;
+}
+.buttons a{
+    text-decoration: none;
+    color: black;
+    padding: 1.3em 2.5em;
+    line-height: 1;
+}
+.buttons a:nth-child(1){
+    background-color: #42AA59;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.buttons a:nth-child(2){
+    background-color: #FFF;
+    border-radius: 3px;
+}
+.buttons a:nth-child(1):hover{
+    background-color: black;
+    color: #fff;
+    border-radius: 3px;
+}
+

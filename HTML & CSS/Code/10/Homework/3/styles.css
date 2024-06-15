@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 4em;
+    text-align: justify;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    border-bottom: 2px solid black;
+}
+.site-title{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+  
+}
+
+.site-nav ul{
+    display: flex; 
+    gap: 3em;
+    list-style-type: none;
+}
+
+.site-nav ul li a,
+.site-aside ul li a{
+   text-decoration: none;
+   color: #090;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h1{font-size: 2.5em;}
+h2{font-size: 2.1em;}
+h3{font-size: 1.7em;}
+
+p,ul{
+    padding-bottom: 1.5em;
+}
+
+.page{
+    max-width: 70em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2em;
+}
+
+.site-main{
+    flex: 0 0 100%;
+}
+
+.side-aside{
+    flex: 1 0 auto;
+}
+
+.align-left{
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.align-right{
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+
+img[class*='align']{
+    border: 3px solid black;
+    padding: 4px;
+    background: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+blockquote[class*='align']{
+    opacity: 0.7;
+    font-family: serif;
+    font-style: italic;
+    max-width: 50%;
+}
+
+blockquote.align-right{
+padding-left: 1em;
+border-left: 1px solid gray;
+}
+.author{
+    text-align: right;
+}
+
+.site-aside ul{
+    padding-left: 2em;
+}
+@media (min-width:0px){
+    body{
+        font-size: 12px;
+        
+    }
+}
+@media (min-width:500px){
+    body{
+        font-size: 14px;
+    }
+}
+@media (min-width:600px){
+    body{
+        font-size: 16px;
+    }
+}
+@media (min-width:800px){
+    body{
+        font-size: 18px;
+    }
+}
+@media (min-width:1300px){
+    body{
+        font-size: 21px;
+    }
+}
+@media (min-width:1800px){
+    body{
+        font-size: 23px;
+    }
+}
+
+

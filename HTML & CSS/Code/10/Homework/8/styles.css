@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+body {
+display: flex;
+flex-direction: column;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.ms{
+  display: flex;
+  gap: 1em;
+}
+
+/* TODO Reference the grid area */
+/* TODO Reference the grid area */
+/* TODO Reference the grid area */
+/* TODO Reference the grid area */
+/* TODO Reference the grid area */
+
+
+
+header { 
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(72, 179, 170);
+color: white;
+padding: 2em;
+}
+
+nav {
+display: flex;
+gap: 2em;
+background-color: #242424;
+padding: 0.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+aside {
+padding: 1em;
+background-color: #e7e6e6;
+}
+
+main {
+  padding: 1em;
+}
+
+footer{
+display: flex;
+justify-content: center;
+text-transform: uppercase;
+background-color: #c2c2c2;
+}
+
+/* TODO Responsive layout - when the screen is less than 700px wide, 
+make the two columns stack on top of each other instead of next to each other */
+@media  (max-width:700px){
+  .ms{
+    flex-direction: column;
+  }
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* TODO Responsive layout - If the screen is smaller than 700px, 
+display the navigation bar links as block and center the text */
+

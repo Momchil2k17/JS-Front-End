@@ -1,0 +1,16 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 15em;
+}
+
+.heading .site-title{
+    color: rgb(77, 15, 134);
+}
+
+.heading .site-subtitle{
+    text-transform: uppercase;
+    font-size: 0.65em;
+    color: rgb(113, 113, 113);
+}
+

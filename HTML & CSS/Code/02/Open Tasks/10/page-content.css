@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+section{
+    margin-left: 20px;
+}
+
+.ph{
+    font-style: italic;
+}
+
+p{
+    font-size: 24px;
+}
+
+h1{
+    font-size: 28px;
+}

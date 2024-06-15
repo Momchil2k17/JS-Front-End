@@ -1,0 +1,47 @@
+.our-team{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    padding: 1em 8em;
+}
+.first-underline{
+    align-self: center;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid black;
+}
+
+.people-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10em;
+}
+.person-info{
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.avatar{
+    align-self: center;
+    width: 6em;
+    aspect-ratio: 1/1;
+    background-color: green;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.name-position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-position p:first-child{
+    font-weight: bold;
+}
+
+.person-summary{
+    font-style: italic;
+    text-align: center;
+}
+
